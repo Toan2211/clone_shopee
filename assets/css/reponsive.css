@@ -30,6 +30,7 @@
         display: flex;
     }
 
+
 }
 /* tablet */
 @media (min-width:740px) and (max-width:    1023px){
@@ -113,4 +114,7 @@
         top:var(--header-height);
     }
    }
+   .header__mobile-search-icon{
+    display: block;
+}
 }
